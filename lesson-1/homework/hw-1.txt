@@ -1,1 +1,92 @@
+1. What is Power BI, and what are its three main components?
+Power BI is a Microsoft business analytics tool used to visualize data and share insights across an organization.
+Three main components:
+- Power BI Desktop: A Windows application for creating reports.
+- Power BI Service: An online SaaS (Software as a Service) platform for sharing and collaboration.
+- Power BI Mobile: Apps for accessing reports and dashboards on mobile devices.
+
+2. Name two business use cases for Power BI dashboards.
+- Sales Performance Monitoring: Track KPIs like revenue, top-selling products, and regional performance.
+- Financial Reporting: Visualize monthly expenses, budgets, and profitability trends.
+
+3. How do you download and install Power BI Desktop?
+1. Go to https://powerbi.microsoft.com/
+2. Click on “Products” > “Power BI Desktop”.
+3. Download it from the Microsoft Store or as a standalone .exe file.
+4. Run the installer and follow the setup instructions.
+
+4. What is the difference between Power BI Desktop and Power BI Service?
+Power BI Desktop:
+- Use Case: Report creation and data modeling
+- Platform: Windows only
+- Sharing: Not directly possible
+
+Power BI Service:
+- Use Case: Report sharing, collaboration, and online access
+- Platform: Cloud-based (Web)
+- Sharing: Publish, schedule, and collaborate
+
+5. What file extension does a Power BI project use?
+.pbix
+
+6. Explain the role of Power Query in Power BI.
+Power Query is a data connection and transformation tool. It allows users to:
+- Connect to various data sources (Excel, SQL, Web, etc.)
+- Clean, reshape, and transform data before loading into Power BI
+- Automate data refreshes and ETL processes
+
+7. Why would a business prefer Power BI over Excel for reporting?
+- Interactive Dashboards: Real-time visuals and slicers
+- Data Volume: Handles larger datasets than Excel
+- Automation: Scheduled refresh and live connections
+- Collaboration: Web-based sharing and commenting
+
+8. Describe one limitation of the free version of Power BI.
+You cannot share reports or dashboards with others in the Power BI Service without a Pro license.
+
+9. What is a "published report" in Power BI Service?
+A published report is a .pbix file uploaded from Power BI Desktop to the Power BI Service, where it can be shared, scheduled for refresh, and viewed online.
+
+10. How does Power BI Mobile enhance accessibility?
+Power BI Mobile allows users to:
+- Access real-time dashboards and reports on-the-go
+- Receive push notifications
+- Interact with visuals and use natural language queries
+
+11. Compare Power BI with Tableau—pros and cons.
+Power BI:
+Pros: Lower cost, strong Microsoft integration, easy learning curve
+Cons: Limited customization, less flexible in visuals
+
+Tableau:
+Pros: Advanced visualizations, better for complex data blending
+Cons: More expensive, steeper learning curve
+
+12. Explain how Power BI integrates with Azure services.
+Power BI integrates with:
+- Azure SQL Database & Synapse: Real-time data connection
+- Azure Active Directory: User authentication and security
+- Azure Machine Learning: Predictive analytics in Power BI visuals
+- Azure Blob Storage/Data Lake: Data ingestion and large-scale storage
+
+13. What are "gateways" in Power BI, and when are they needed?
+Data gateways are bridges between on-premises data sources and the Power BI Service.
+Used when:
+- Connecting to local databases (SQL, Excel, etc.)
+- You want scheduled refresh or live connection from cloud to on-prem sources
+
+14. How would you convince a company to adopt Power BI? (ROI argument)
+- Reduce manual reporting time by 50–80%, saving labor costs
+- Data-driven decisions improve performance (e.g., boost sales or cut expenses)
+- Self-service analytics reduce IT dependency
+- Low cost of entry with high scalability
+- Faster time to insight compared to traditional reporting
+
+15. What security features does Power BI offer for sensitive data?
+- Row-Level Security (RLS): Restrict data access by user role
+- Azure Active Directory integration: User authentication
+- Data encryption (at rest and in transit)
+- Microsoft Defender for Cloud Apps: Threat detection and monitoring
+- Audit logs and usage metrics
+
 
